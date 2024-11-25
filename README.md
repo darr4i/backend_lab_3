@@ -21,22 +21,27 @@
 
 #### **1. Клонування репозиторію**
 Склонуйте проект до себе на локальний комп'ютер:
+
     ```bash
     git clone <URL_репозиторію>
     cd backend_lab_3
 
 #### **2. Встановлення залежностей**
+
     ```bash
     pip install -r requirements.txt
 
 #### **3. Запуск бази даних**
+
     ```bash
     docker-compose up -d
 
 #### **4. Ініціалізація бази даних**
+
     ```bash
     flask db upgrade
 
 #### **5. Запуск серверу**
+
     ```bash
     python run.py
